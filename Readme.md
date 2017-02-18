@@ -10,12 +10,7 @@ pylint badges for everyone!
 
 ## Color intervals
 
-`if score < 3.0:`
-    ![pylint Score](http://www.mperlet.de/pybadge/badges/2.99.svg)
-`elif score >= 3.0 and score < 7.0:`
-    ![pylint Score](http://www.mperlet.de/pybadge/badges/5.51.svg)
-`else:`
-    ![pylint Score](http://www.mperlet.de/pybadge/badges/9.73.svg)
+0.00 < ![pylint Score](http://www.mperlet.de/pybadge/badges/1.50.svg) < 3.00 < ![pylint Score](http://www.mperlet.de/pybadge/badges/5.51.svg) < 7.00 ![pylint Score](http://www.mperlet.de/pybadge/badges/9.73.svg) < 10.00
 
 ## Limitations
 
