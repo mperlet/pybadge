@@ -84,7 +84,15 @@ function createLink() {
     score = 0.0;
   }
 
-  link = window.location.href + "/badges/" + score + ".svg"
+  thisUri =  window.location.href;
+  link = "badges/" + score + ".svg"
+
+  if(thisUri.lastIndexOf('/') !== thisUri.length - 1) {
+    link = "/" + link;
+  }
+
+  link = thisUri + link;
+
   previewElement.src = link;
   linkElement.value = "![pylint Score](" + link + ")" ;
 }
