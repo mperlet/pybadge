@@ -8,8 +8,8 @@ setup(
     author="Pouncy Silverkitten",
     author_email="pouncy.sk@gmail.com",
     url="https://github.com/pouncysilverkitten/pylint-badge",
-    install_requires=["pylint",]
+    install_requires=["pylint",],
     entry_points = {
         'console_scripts': ['pylint-badge=pylint-badge.pylint-badge:main'],
-    }
+    },
 }
