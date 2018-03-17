@@ -1,13 +1,10 @@
-# pybadge ![pylint Score](https://mperlet.github.io/pybadge/badges/5.00.svg)
+# pybadge ![pylint Score](pylint.svg)
 
 pylint badges for everyone!
 
 ## Howto
 
-1. Check your pylint score with `pylint` or `python3-pylint`
-2. Goto: https://mperlet.github.io/pybadge/ and insert your score
-3. Copy the generated markdown link into your README
-
+1. Run `pylint --output-format=json`
 ### bash alias for markdown text
 run `pybadge <pyfile>`
 ```
