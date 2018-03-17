@@ -2,7 +2,7 @@ from distutils.core import setup
 
 
 setup(
-    name='pylint-badge'.
+    name='pylint-badge',
     version='0.9',
     description="Runs pylint to generate badges",
     author="Pouncy Silverkitten",
